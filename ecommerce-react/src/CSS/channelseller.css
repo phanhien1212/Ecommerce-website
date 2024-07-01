@@ -1,0 +1,308 @@
+body {
+   background-color: #f0f0f1;
+   font-size: 14px;
+ }
+ .f6f6f6 {
+   background-color: #f6f6f6;
+ }
+ .red {
+   background-color: red;
+ }
+ .ngaydathang {
+   font-size: 12px;
+ }
+ .colorshopee {
+     color: #ee4d2d;
+ }
+ .colorgray{
+   color: #8c8c8c;
+ }
+ .btnThemSPQC
+ {
+   outline-style: dashed;
+ }
+ .vertical-center {
+   align-items: center; /* Căn giữa theo chiều dọc */
+ }
+ .bg-shopee
+ {
+     background-color: #ee4d2d;
+ }
+ .search-marketing
+ {
+   margin-left: -60px;
+ }
+ .btn-active-custom:active {
+   background-color: yellow !important;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: black;
+ }
+ /* Đổi màu nền của select */
+ .form-select {
+   /* Màu nền bạn muốn */
+   color: #495057; /* Màu chữ */
+ }
+ 
+ /* Đổi màu nền của select khi focus */
+ 
+ .hdl-headerr {
+   height: 70px;
+   line-height: 30px;
+   background-color: white;
+   color: black;
+ }
+ 
+ .hdl-headerr ul.menutopp {
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+ }
+ 
+ .hdl-headerr ul.menutopp:after {
+   content: " ";
+   display: table;
+   clear: both;
+ }
+ 
+ .hdl-headerr ul.menutopp li {
+   float: left;
+ }
+ 
+ .hdl-headerr ul.menutopp li a {
+   text-decoration: none;
+   line-height: 30px;
+   height: 30px;
+   display: block;
+   padding: 0px 10px;
+   font-size: 15px;
+ }
+ 
+ .hdl-headerr ul.menutopp li.text-phaii {
+   float: right;
+ }
+ 
+ .dashboard-name {
+   background-color: #2271b1;
+   color: #fff;
+   line-height: 40px;
+   text-align: center;
+ }
+ 
+ .hdl-leftt {
+   min-height: calc(94vh - 30px) !important;
+   background-color: white;
+ }
+ 
+ .hdl-contentt {
+   min-height: calc(94vh - 30px) !important;
+   margin-top: -7px;
+ }
+ 
+ .content-header h1 {
+   font-size: 30px;
+   font-weight: 500;
+ }
+ 
+ ul.manager {
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+ }
+ 
+ ul.manager:after {
+   display: table;
+   content: "";
+   clear: both;
+ }
+ 
+ ul.manager li {
+   float: left;
+   border-right: 1px solid #808080;
+ }
+ 
+ ul.manager li a {
+   display: block;
+   padding: 0px 5px;
+   line-height: 14px;
+   font-size: 14px;
+   text-decoration: none;
+   color: black;
+ }
+ 
+ ul.manager li:first-child a {
+   padding-left: 0px;
+ }
+ 
+ ul.manager li:last-child {
+   border-right: none;
+ }
+ 
+ .content-header input.search {
+   padding: 0px;
+   border-radius: 7px;
+   border: 1px solid #c1c1c1;
+   padding: 0px 10px;
+ }
+ 
+ button.btnsearch,
+ button.btnapply,
+ button.btnfilter {
+   padding: 0px;
+   border-radius: 3px;
+   border: 1px solid #c1c1c1;
+   padding: 0px 10px;
+ }
+ 
+ .mainmenuu ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+ }
+ 
+ .mainmenuu {
+   padding-top: 10px;
+ }
+ 
+ .submenuu li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 14px;
+   line-height: 26px;
+   display: block;
+   padding: 6px;
+   border-radius: 7px;
+   transition: all 0.5;
+   padding-left: 30px;
+ }
+ 
+ .mainmenuu ul li.hdlitemm a.management {
+   text-decoration: none;
+   color: #999;
+   line-height: 25px;
+   font-weight: 500;
+   display: block;
+   padding: 10px;
+   border-radius: 7px;
+   transition: all 0.5;
+   padding-left: 30px;
+ }
+ 
+ .mainmenuu ul li.hdlitemm a.management:hover {
+   color: #888;
+ }
+ 
+ .mainmenuu ul li.hdlitemm a:hover {
+   color: #ff7337;
+ }
+ 
+ .mainmenuu ul li.item-subb ul.submenuu {
+   display: none;
+   visibility: hidden;
+   opacity: 0;
+ }
+ 
+ .mainmenuu ul li.active ul.submenuu {
+   display: block;
+   visibility: visible;
+   opacity: 1;
+   transition: all 0.5;
+ }
+ 
+ .mainmenuu ul li.hdlitemm {
+   position: relative;
+ }
+ 
+ .mainmenuu ul li.hdlitemm svg.icon-left {
+   color: white;
+   position: absolute;
+   left: 10px;
+   top: 12px;
+ }
+ 
+ .mainmenuu ul li.hdlitemm svg.icon-right {
+   color: white;
+   position: absolute;
+   right: 10px;
+   top: 12px;
+ }
+ 
+ .datarow .function_style {
+   visibility: hidden;
+ }
+ 
+ .datarow:hover .function_style {
+   visibility: visible;
+ }
+ 
+ /**/
+ .btn-add,
+ .btn-edit {
+   border: 1px solid #c1c1c1;
+   padding: 2px 10px;
+   margin-left: 10px;
+   background-color: #c2c2c2;
+   color: black;
+ }
+ 
+ .btn-add:hover,
+ .btn-edit:hover {
+   border: 1px solid #c1c1c1;
+   background-color: #c2c2c2;
+ }
+ 
+ .shopee-button {
+   color: #fff;
+   background-color: #ee4d2d;
+   border: 1px solid #e5e5e5;
+   border-color: #ee4d2d;
+   position: relative;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 32px;
+   font-family: inherit;
+   font-size: 14px;
+   border-radius: 4px;
+ }
+ 
+ .shopee-button--large {
+   height: 35px;
+   min-width: 80px;
+   padding: 0 16px;
+   font-size: 14px;
+ }
+ 
+ .shopee-buttonn {
+   color: #333;
+   background-color: #fff;
+   border: 1px solid #e5e5e5;
+   position: relative;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   height: 35px;
+   min-width: 72px;
+   padding: 0 16px;
+   font-family: inherit;
+   font-size: 14px;
+   font-weight: 500;
+   text-decoration: none;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border-radius: 4px;
+   outline: none;
+   box-sizing: border-box;
+   transition: all 0.2s ease-in-out;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+ 

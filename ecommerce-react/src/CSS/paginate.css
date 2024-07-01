@@ -1,0 +1,23 @@
+/* Phân Trang */
+.paginationsite {
+    display: inline-block;
+    margin: 20px 0px 20px 340px;
+  }
+  
+  .paginationsite a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .paginationsite a.active {
+    background-color: #ee4d2d;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .paginationsite a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
